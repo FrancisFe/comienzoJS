@@ -23,10 +23,7 @@ console.log(series[4]);
 console.log("--------------------------");
 //Agregar un elemento nuevo en una posicion particular
 series.splice(0,0,"Windbreaker");
-for(let i=0;i<series.length;i++){
-    console.log(series[i]);
-}
-
+mostrarSeries();
 
 //Borrar Elemento de un arreglo
 
@@ -35,3 +32,11 @@ series.splice(7,1);
 
 //Elmiminar todos los elementos a partir de tal posicion
 series.splice(6);
+
+const mostrarSeries = () =>{
+    document.write("<br>");
+    for(let i=0;i<series.length;i++){
+        document.write("<br>Serie: "  + series[i]);
+    }
+    
+}
