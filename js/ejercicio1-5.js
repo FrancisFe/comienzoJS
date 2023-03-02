@@ -9,7 +9,7 @@ document.write(3+5);
 
 //Ejercicio 4
 let nombreUsuario=prompt("Escribe tu nombre");
-document.write("<br>Hola "+nombreUsuario);
+document.write("<br>Hola "+nombreUsuario)
 
 //Ejercicio 5
 let primerNumero=parseInt(prompt("Escribe el primer numero"));
